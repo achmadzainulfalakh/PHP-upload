@@ -1,0 +1,7 @@
+Versi: 1
+Oleh: Achmad Zainul Falakh, S. Kom.
+Deskripsi:
+Projek ini ditujukan untuk kepentingan pembelajaran, projek ini hanya akan berfokus pada proses pembangunan sebuah aplikasi upload file foto menggunakan php native atau php murni. Dalam folder projek ini juga akan disertakan file database gallery yang digunakan untuk menyimpan data foto.
+Database:
+Create database PHP_upload;
+create table gallery(id int(11) auto_increment primary key, imgname varchar(100), title varchar(100), alttext varchar(100));
